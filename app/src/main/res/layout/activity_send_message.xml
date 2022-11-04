@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SendMessageActivity">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background= "@drawable/lightblue"
+        app:layout_constraintBottom_toBottomOf="@+id/option7"
+        app:layout_constraintEnd_toEndOf="@+id/option"
+        app:layout_constraintStart_toStartOf="@+id/option"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/option"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:text="@string/options"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_1"
+        android:textColor="@color/black"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_2"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option1" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_3"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option2" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_4"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option3" />
+
+    <Button
+        android:id="@+id/option5"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_5"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option4" />
+
+    <Button
+        android:id="@+id/option6"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_code_6"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option5" />
+
+    <Button
+        android:id="@+id/option7"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/send_2_at_13032"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/option6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
